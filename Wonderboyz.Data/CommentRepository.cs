@@ -5,8 +5,7 @@ using System.Text;
 
 namespace Wonderboyz.Data
 {
-    public class RepositoryBase
+    class CommentRepository
     {
-        
     }
 }

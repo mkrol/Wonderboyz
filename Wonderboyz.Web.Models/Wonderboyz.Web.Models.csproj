@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{068D0297-1A61-4B24-AD76-5199BCCA5B6A}</ProjectGuid>
+    <ProjectGuid>{4AFF0621-70DB-46AE-BB92-1C139F4EEDE2}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Wonderboyz.Data</RootNamespace>
-    <AssemblyName>Wonderboyz.Data</AssemblyName>
+    <RootNamespace>Wonderboyz.Web.Models</RootNamespace>
+    <AssemblyName>Wonderboyz.Web.Models</AssemblyName>
     <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
   </PropertyGroup>
@@ -39,14 +39,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="BlogPostRepository.cs" />
-    <Compile Include="CommentRepository.cs" />
-    <Compile Include="KeywordRepository.cs" />
-    <Compile Include="RepositoryBase.cs" />
+    <Compile Include="Class1.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <Compile Include="View\BlogPostViewModel.cs" />
+    <Compile Include="View\CommentViewModel.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -42,12 +42,6 @@
     <Compile Include="BusinessObjectBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Wonderboyz.Interfaces\Wonderboyz.Interfaces.csproj">
-      <Project>{01d28c39-92ba-49ba-92ad-4612d22425ca}</Project>
-      <Name>Wonderboyz.Interfaces</Name>
-    </ProjectReference>
-  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

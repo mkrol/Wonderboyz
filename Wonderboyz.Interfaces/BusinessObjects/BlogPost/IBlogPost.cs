@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Wonderboyz.Data
+namespace Wonderboyz.Interfaces.BusinessObjects.BlogPost
 {
-    public class RepositoryBase
+    interface IBlogPost
     {
-        
     }
 }

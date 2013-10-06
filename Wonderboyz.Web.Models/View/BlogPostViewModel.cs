@@ -3,10 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace Wonderboyz.Data
+namespace Wonderboyz.Web.Models.View
 {
-    public class RepositoryBase
+    public class BlogPostViewModel
     {
-        
     }
 }
