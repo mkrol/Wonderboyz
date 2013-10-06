@@ -337,6 +337,16 @@
   <ItemGroup>
     <Content Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Wonderboyz.BusinessObjects\Wonderboyz.BusinessObjects.csproj">
+      <Project>{a5e8af1e-9e27-4f94-8c67-c9d818572ad4}</Project>
+      <Name>Wonderboyz.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wonderboyz.Interfaces\Wonderboyz.Interfaces.csproj">
+      <Project>{01d28c39-92ba-49ba-92ad-4612d22425ca}</Project>
+      <Name>Wonderboyz.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
