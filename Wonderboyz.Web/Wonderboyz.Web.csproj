@@ -206,6 +206,10 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\AccountModels.cs" />
+    <Compile Include="Plumbing\Installers\BusinessObjectsInstaller.cs" />
+    <Compile Include="Plumbing\Installers\ControllersInstaller.cs" />
+    <Compile Include="Plumbing\Installers\RepositoryInstaller.cs" />
+    <Compile Include="Plumbing\WindsorControllerFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -341,6 +345,10 @@
     <ProjectReference Include="..\Wonderboyz.BusinessObjects\Wonderboyz.BusinessObjects.csproj">
       <Project>{a5e8af1e-9e27-4f94-8c67-c9d818572ad4}</Project>
       <Name>Wonderboyz.BusinessObjects</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Wonderboyz.Data\Wonderboyz.Data.csproj">
+      <Project>{068d0297-1a61-4b24-ad76-5199bcca5b6a}</Project>
+      <Name>Wonderboyz.Data</Name>
     </ProjectReference>
     <ProjectReference Include="..\Wonderboyz.Interfaces\Wonderboyz.Interfaces.csproj">
       <Project>{01d28c39-92ba-49ba-92ad-4612d22425ca}</Project>
