@@ -41,12 +41,18 @@
   <ItemGroup>
     <Compile Include="BlogPostRepository.cs" />
     <Compile Include="CommentRepository.cs" />
+    <Compile Include="Interfaces\IBaseRepositoryInterface.cs" />
+    <Compile Include="Interfaces\IBlogPostRepository.cs" />
+    <Compile Include="Interfaces\ICommentRepository.cs" />
     <Compile Include="KeywordRepository.cs" />
     <Compile Include="RepositoryBase.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Interfaces\" />
+    <ProjectReference Include="..\Wonderboyz.Web.Models\Wonderboyz.Web.Models.csproj">
+      <Project>{4aff0621-70db-46ae-bb92-1c139f4eede2}</Project>
+      <Name>Wonderboyz.Web.Models</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
